@@ -1,0 +1,201 @@
+body {
+  background-color: #121A2F;
+  margin: 5px;
+  font-size: 28px;
+  line-height: 1.14286;
+  font-weight: 600;
+  letter-spacing: .007em;
+  font-family: "SF Pro Display","SF Pro Icons","Helvetica Neue","Helvetica","Arial",sans-serif;
+  color: #fff;
+  height: 3000px;
+  border: 2px solid #EFEEF3;
+  border-radius: 10px;
+}
+
+.top_of_webpage {
+  overflow: hidden;
+  position: relative;
+  margin: 5%;
+  height: 100px;
+  padding: 5px;
+  padding-right: 10%;
+  border: 2px solid #EFEEF3;
+  border-radius: 10px;
+
+}
+
+.title_of_game {
+  color: #7BC379;
+  font-size: 100px;
+}
+
+.player_name_header {
+  overflow: hidden;
+  margin-left: 100px;
+}
+
+.player_name {
+  overflow: hidden;
+  color: #E99727;
+}
+
+.character_info {
+  position: relative;
+  margin: 5%;
+  padding: 5px;
+  font-size: 16px;
+  border: 2px solid #EFEEF3;
+  border-radius: 10px;
+}
+
+#character_info_text_color {
+  color: #79A2FE;
+}
+
+#character_age_hair_eyes {
+  height: 20px;
+  overflow: hidden;
+}
+
+#character_age {
+  display: inline-block;
+  width: 150px;
+  height: 20px;
+}
+
+#character_hair {
+  display: inline-block;
+  width: 150px;
+  height: 20px;
+  margin-left: 50px;
+}
+
+#character_eyes {
+  display: inline-block;
+  width: 150px;
+  height: 20px;
+  margin-left: 50px;
+}
+
+#character_height_weight_sex {
+  height: 20px;
+  overflow: hidden;
+}
+
+#character_height {
+  display: inline-block;
+  width: 150px;
+  height: 20px;
+}
+
+#character_weight {
+  display: inline-block;
+  width: 150px;
+  height: 20px;
+  margin-left: 50px;
+}
+
+#character_sex {
+  display: inline-block;
+  width: 150px;
+  height: 20px;
+  margin-left: 50px;
+}
+
+.attributes_and_characterisitcs {
+  overflow: hidden;
+  position: relative;
+  margin: 5%;
+  padding: 5px;
+  height: 600px;
+}
+
+#attributes_title {
+  display: inline-block;
+  width: 49%;
+  color: #E06C75
+}
+
+#characteristics_title {
+  display: inline-block;
+  width: 49%;
+  color: #E06C75
+
+}
+
+.attributes {
+  display: inline-block;
+  overflow: hidden;
+  width: 48%;
+  border: 2px solid #EFEEF3;
+  border-radius: 10px;
+  margin-top: 5%;
+  padding: 5px;
+  height: 325px;
+}
+
+.characteristics {
+  display: inline-block;
+  overflow: hidden;
+  background-color: red;
+  width: 48%;
+  border: 2px solid #EFEEF3;
+  border-radius: 10px;
+  padding: 5px;
+  height: 325px;
+}
+
+
+.attributes_column_headers {
+  font-size: 16px;
+  margin-top: 10px;
+  height: 17px;
+  overflow: hidden;
+}
+
+#blank_attribute_header_size {
+  display: inline-block;
+  width: 24%;
+}
+
+#attributes_column_header_value {
+  display: inline-block;
+  width: 24%;
+}
+
+#attributes_column_header_step {
+  display: inline-block;
+  width: 24%;
+}
+
+#attributes_column_header_action_dice {
+  display: inline-block;
+  width: 24%;
+}
+
+.dexterity_row {
+  font-size: 16px;
+  margin-top: 10px;
+  height: 17px;
+  overflow: hidden;
+}
+
+#dexterity {
+  display: inline-block;
+  width: 24%;
+}
+
+#dexterity_value {
+  display: inline-block;
+  width: 24%;
+}
+
+#dexterity_step {
+  display: inline-block;
+  width: 24%;
+}
+
+#dexterity_dice {
+  display: inline-block;
+  width: 24%;
+}

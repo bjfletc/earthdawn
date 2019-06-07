@@ -1,0 +1,186 @@
+body {
+  background-color: #121A2F;
+  position: static;
+  font-size: 28px;
+  line-height: 1.14286;
+  font-weight: 600;
+  letter-spacing: .007em;
+  font-family: "SF Pro Display","SF Pro Icons","Helvetica Neue","Helvetica","Arial",sans-serif;
+  color: #fff;
+  height: 1000px;
+  border: 2px solid #EFEEF3;
+  border-radius: 10px;
+  padding-bottom: 10px;
+  top: 0;
+  right: 0;
+  bottom: 0;
+  left: 0;
+  overflow: auto;
+}
+
+
+.jinja2 {
+
+  color: #79A2FE;
+}
+
+.title_of_game {
+  position: relative;
+  font-size: 100px;
+  line-height: 1.14286;
+  font-weight: 600;
+  letter-spacing: .007em;
+  font-family: "SF Pro Display","SF Pro Icons","Helvetica Neue","Helvetica","Arial",sans-serif;
+  color: #7BC379;
+
+  top: 50px;
+  left: 10%;
+}
+
+
+.player_name {
+  position: relative;
+  left: 60%;
+}
+
+.player {
+
+  color: #E99727;
+}
+
+.character_info {
+  position: relative;
+  top: 175px;
+  left: 10%;
+  width: 80%;
+  padding: 5px;
+  font-size: 16px;
+  border: 2px solid #EFEEF3;
+  border-radius: 10px;
+}
+
+#attributes_title {
+  position: static;
+  top: 525px;
+  left: 22.5%;
+  color: #E06C75
+}
+
+.attributes {
+  position: static;
+  top: 575px;
+  left: 10%;
+  padding: 5px;
+  width: 420px;
+  font-size: 16px;
+  border: 2px solid #EFEEF3;
+  border-radius: 10px;
+
+}
+
+#attributes_header_value {
+  font-size: 15px;
+  padding-left: 35%;
+}
+
+#attributes_header_step {
+  font-size: 15px;
+  padding-left: 10%;
+}
+
+#attributes_header_action_dice {
+  font-size: 15px;
+  display: inline;
+  padding-left: 10%;
+  padding-right: 5%;
+
+}
+
+#dexterity_value {
+  padding-left: 15%;
+}
+
+#dexterity_setp {
+  padding-left: 13.5%;
+}
+
+#dexterity_action_dice {
+  padding-left: 19%;
+}
+
+#strength_value {
+  padding-left: 15.5%;
+}
+
+#strength_setp {
+  padding-left: 13.5%;
+}
+
+#strength_action_dice {
+  padding-left: 19%;
+}
+
+#toughness_value {
+  padding-left: 11%;
+}
+
+#toughness_setp {
+  padding-left: 13.5%;
+}
+
+#toughness_action_dice {
+  padding-left: 19%;
+}
+
+#perception_value {
+  padding-left: 11%;
+}
+
+#perception_setp {
+  padding-left: 13.5%;
+}
+
+#perception_action_dice {
+  padding-left: 19%;
+}
+
+#willpower_value {
+  padding-left: 12.5%;
+}
+
+#willpower_setp {
+  padding-left: 13.5%;
+}
+
+#willpower_action_dice {
+  padding-left: 19%;
+}
+
+#charisma_value {
+  padding-left: 13%;
+}
+
+#charisma_setp {
+  padding-left: 13.5%;
+}
+
+#charisma_action_dice {
+  padding-left: 19%;
+}
+
+#characteristics_title {
+  font-size: 28px;
+  line-height: 1.14286;
+  font-weight: 600;
+  letter-spacing: .007em;
+  font-family: "SF Pro Display","SF Pro Icons","Helvetica Neue","Helvetica","Arial",sans-serif;
+  color: #fff;
+  top: 525px;
+  left: 63.5%;
+  color: #E06C75;
+}
+
+.characteristics {
+  position: static;
+  top: 525px;
+}

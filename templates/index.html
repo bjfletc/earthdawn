@@ -1,0 +1,146 @@
+<!DOCTYPE html>
+<html>
+<head>
+<title>Page Title</title>
+<link rel="stylesheet" href="index.css">
+<link rel= "stylesheet" type= "text/css" href="{{ url_for('static', filename='styles/index.css')}}">
+</head>
+<body>
+
+  <div class="title_of_game">Earthdawn</div>
+
+  <div class="player_name">Player: <span class="player">Brandon Fletcher</span></div>
+
+  <div class="character_info">
+    <p>Character Name: <span class="jinja2">Brock</span></p>
+
+    <hr></hr>
+
+    <p>Discipline: <span class="jinja2">Elementalist</span></p>
+
+    <hr></hr>
+
+    <p>Circle: <span class="jinja2">1</span></p>
+
+    <hr></hr>
+
+    <p>Race: <span class="jinja2">Obsidiman</span></p>
+
+    <hr></hr>
+
+    <div id="age_hair_eyes">
+      <p>
+      <span>Age: </span><span class="jinja2">1,400</span>
+      <span>Hair: </span><span class="jinja2">Moss</span>
+      <span>Eyes: </span><span class="jinja2">Green</span>
+      </p>
+    </div>
+
+    <hr></hr>
+
+    <div id="height_weight_sex">
+        <p>
+        <span>Height: </span><span class="jinja2">7'5"</span>
+        <span>Weight: </span><span class="jinja2">1,100 lbs</span>
+        <span>Sex: </span><span class="jinja2">Male</span>
+        </p>
+    </div>
+
+
+  </div>
+
+  <div id="attributes_title">Attributes</div>
+
+
+  <div class="attributes">
+
+    <div id="attributes_column_headers">
+        <p>
+
+            <span id="attributes_header_value">Value</span>
+            <span id="attributes_header_step">Step</span>
+            <span id="attributes_header_action_dice">Action Dice</span>
+
+        </p>
+    </div>
+
+    <hr></hr>
+
+    <div id="dexterity">
+      <p>
+      <span>Dexterity: </span>
+      <span id="dexterity_value">( <span class="jinja2">12</span> )</span>
+      <span class="jinja2" id="dexterity_setp"> 5 </span>
+      <span class="jinja2" id="dexterity_action_dice"> 1D8 </span>
+      </p>
+    </div>
+
+    <hr></hr>
+
+    <div id="strength">
+      <p>
+      <span>Strength: </span>
+      <span id="strength_value">( <span class="jinja2">15</span> )</span>
+      <span class="jinja2" id="strength_setp"> 6 </span>
+      <span class="jinja2" id="strength_action_dice"> 1D10 </span>
+      </p>
+    </div>
+
+    <hr></hr>
+
+    <div id="toughness">
+      <p>
+      <span>Toughness: </span>
+      <span id="toughness_value">( <span class="jinja2">16</span> )</span>
+      <span class="jinja2" id="toughness_setp"> 7 </span>
+      <span class="jinja2" id="toughness_action_dice"> 1D12 </span>
+      </p>
+    </div>
+
+    <hr></hr>
+
+    <div id="perception">
+      <p>
+      <span>Perception: </span>
+      <span id="perception_value">( <span class="jinja2">15</span> )</span>
+      <span class="jinja2" id="perception_setp"> 6 </span>
+      <span class="jinja2" id="perception_action_dice"> 1D10 </span>
+      </p>
+    </div>
+
+    <hr></hr>
+
+    <div id="willpower">
+      <p>
+      <span>Willpower: </span>
+      <span id="willpower_value">( <span class="jinja2">16</span> )</span>
+      <span class="jinja2" id="willpower_setp"> 7 </span>
+      <span class="jinja2" id="willpower_action_dice"> 1D12 </span>
+      </p>
+    </div>
+
+    <hr></hr>
+
+    <div id="charisma">
+      <p>
+      <span>Charisma: </span>
+      <span id="charisma_value">( <span class="jinja2">11</span> )</span>
+      <span class="jinja2" id="charisma_setp"> 5 </span>
+      <span class="jinja2" id="charisma_action_dice"> 1D8 </span>
+      </p>
+    </div>
+
+    <hr></hr>
+
+
+  </div>
+
+  <div class="characteristics">
+      <div id="characteristics_title">Characteristics</div>
+
+
+  </div>
+
+
+</body>
+</html>
