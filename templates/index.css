@@ -283,7 +283,6 @@ body {
 }
 
 #init_mov_str_block {
-  border: solid;
   overflow: hidden;
   width: 99%;
   height: 50%;
@@ -291,7 +290,6 @@ body {
 
 #init_field {
   display: inline-block;
-  border: solid;
   overflow: hidden;
   font-size: 16px;
   width: 48%;
@@ -300,8 +298,8 @@ body {
 
 #mov_str_field {
   display: inline-block;
-  border: solid;
   overflow: hidden;
+  font-size: 16px;
   width: 48%;
   height: 95%;
 }
@@ -351,7 +349,6 @@ body {
 
 #movement_strenght_field {
   overflow hidden;
-  border: solid;
   display: inline-block;
   width: 47%;
   height: 99%;
@@ -361,4 +358,63 @@ body {
   overflow: hidden;
   padding-left: 13px;
   height: 17px;
+}
+
+#full_combat_fields {
+  margin-top: 10px;
+}
+
+#full_field {
+  display: inline-block;
+  margin-left: 25px;
+}
+
+#full_field_value {
+  display: inline-block;
+  color: #30DAE4;
+  margin-left: 5px;
+}
+
+#combat_field {
+  display: inline-block;
+  margin-left: 5px;
+}
+
+#combat_field_value {
+  display: inline-block;
+  color: #30DAE4;
+  margin-left: 5px;
+}
+
+#strength_title {
+  margin-top: 10px;
+  overflow: hidden;
+  padding-left: 13px;
+  height: 17px;
+}
+
+#carry_lift_fields {
+  margin-top: 10px;
+}
+
+#carry_field {
+  display: inline-block;
+  margin-left: 25px;
+}
+
+#carry_field_value {
+  display: inline-block;
+  color: #30DAE4;
+  margin-left: 5px;
+}
+
+#lift_field {
+  display: inline-block;
+  margin-left: 5px;
+}
+
+#lift_field_value {
+  display: inline-block;
+  color: #30DAE4;
+  margin-left: 5px;
 }
