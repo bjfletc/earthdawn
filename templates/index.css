@@ -281,3 +281,84 @@ body {
   width: 18%;
   height: 100%;
 }
+
+#init_mov_str_block {
+  border: solid;
+  overflow: hidden;
+  width: 99%;
+  height: 50%;
+}
+
+#init_field {
+  display: inline-block;
+  border: solid;
+  overflow: hidden;
+  font-size: 16px;
+  width: 48%;
+  height: 95%;
+}
+
+#mov_str_field {
+  display: inline-block;
+  border: solid;
+  overflow: hidden;
+  width: 48%;
+  height: 95%;
+}
+
+
+#initiative_title {
+  overflow: hidden;
+  padding-left: 13px;
+  height: 17px;
+}
+
+#dex_step {
+  overflow: hidden;
+  margin-top: 15px;
+  padding-left: 30px;
+  height: 17px;
+}
+
+#dex_step_value {
+  color: #E05C8D;
+  padding-left: 21px;
+}
+
+#armor_mod {
+  overflow: hidden;
+  margin-top: 15px;
+  padding-left: 30px;
+  height: 17px;
+}
+
+#armor_mod_value {
+  color: #E05C8D;
+  padding-left: 15px;
+}
+
+#final_step_action_dice {
+  overflow: hidden;
+  margin-top: 15px;
+  padding-left: 30px;
+  height: 17px;
+}
+
+#final_step_action_dice_value {
+  color: #E05C8D;
+  padding-left: 42px;
+}
+
+#movement_strenght_field {
+  overflow hidden;
+  border: solid;
+  display: inline-block;
+  width: 47%;
+  height: 99%;
+}
+
+#movement_title {
+  overflow: hidden;
+  padding-left: 13px;
+  height: 17px;
+}
